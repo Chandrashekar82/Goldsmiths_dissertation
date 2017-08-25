@@ -1,0 +1,75 @@
+/*screen resize for 375px*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  .center {
+    width: 80%;
+    margin-top: -2px;
+  }
+}
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lead_txt {
+    margin-top: 115px;
+    margin-left: 32px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lead_txt2 {
+    position: absolute;
+    top: 1240px;
+    left: 95px;
+    width: 50%;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 375px) {
+  h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  h2, h4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  p3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  p4 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .introBox {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  hr {
+    width: 28%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .fa {
+    padding: 3px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,82 @@
+/*screen resize for 1024px*/
+@media screen and (width: 1024px) {
+  .center {
+    width: 60%;
+  }
+}
+@media screen and (width: 1024px) {
+  h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (width: 1024px) {
+  h2 {
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (width: 1024px) {
+  h4 {
+    display: none;
+  }
+}
+@media screen and (width: 1024px) {
+  .lead_txt {
+    margin-top: -50px;
+    margin-left: -170px;
+  }
+}
+@media screen and (width: 1024px) {
+  .lead_txt2 {
+    position: absolute;
+    margin-top: -800px;
+    left: 350px;
+    width: 16%;
+    z-index: 2;
+  }
+}
+@media screen and (width: 1024px) {
+  h3 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (width: 1024px) {
+  p {
+    font-size: 20px;
+    line-height: 1.8em;
+  }
+}
+@media screen and (width: 1024px) {
+  p3 {
+    font-size: 21px;
+  }
+}
+@media screen and (width: 1024px) {
+  p4 {
+    font-size: 18px;
+  }
+}
+@media screen and (width: 1024px) {
+  .introBox {
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+}
+@media screen and (width: 1024px) {
+  hr {
+    width: 16%;
+  }
+}
+@media screen and (width: 1024px) {
+  .fa {
+    padding: 8px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+  }
+}

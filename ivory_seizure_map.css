@@ -1,0 +1,18 @@
+/*.container {
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: auto;
+}
+#chartdiv {
+  height: 400px;
+}*/
+#slider {
+  margin-top: 20px;
+}
+.ui-slider .ui-slider-handle {
+  width: 3.2em!important;
+  text-align: center;
+  margin-left: -1.6em!important;
+}

@@ -1,0 +1,68 @@
+/*screen resize for 768px*/
+@media screen and (width: 768px) {
+  h1 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (width: 768px) {
+  .lead_txt {
+    margin-top: -10px;
+    margin-left: -200px;
+  }
+}
+@media screen and (width: 768px) {
+  .lead_txt2 {
+    position: absolute;
+    top: 2620px;
+    left: 250px;
+    width: 50%;
+  }
+}
+@media screen and (width: 768px) {
+  h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+}
+@media screen and (width: 768px) {
+  h4 {
+    display: none;
+  }
+}
+@media screen and (width: 768px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media screen and (width: 768px) {
+  p3 {
+    font-size: 15px;
+  }
+}
+@media screen and (width: 768px) {
+  p4 {
+    font-size: 14px;
+  }
+}
+@media screen and (width: 768px) {
+  .introBox {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (width: 768px) {
+  hr {
+    width: 16%;
+  }
+}
+@media screen and (width: 768px) {
+  .fa {
+    padding: 3px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+  }
+}

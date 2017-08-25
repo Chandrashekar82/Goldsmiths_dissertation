@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body, html {
+  line-height: 1.7em;
+  margin: 0;
+  height: 100%;
+}
+.center {
+  margin: auto;
+  width: 70%;
+  display: block;
+  text-align: left;
+  overflow: hidden;
+}
+.intro {
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  overflow: hidden;
+}
+.introBox {
+  margin-left: 20px;
+}
+.lead_pic {
+  position: relative;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.lead_txt {
+  position: absolute;
+  top: 490px;
+  left: 350px;
+  width: 37%;
+  z-index: 2;
+  margin-top: 75px;
+}
+.lead_pic2 {
+  position: relative;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.lead_txt2 {
+  position: absolute;
+  margin-top: -1050px;
+  margin-left: 20px;
+  width: 21.5%;
+}
+.parallaxquote {
+  background-color: inherit;
+  height: 40%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxquotecontainer {
+  width: 50%;
+  text-align: center;
+  background-position;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-family: 'The Girl Next Door', cursive;
+  overflow: hidden;
+}
+.parallax2 {
+  background-image: url('/Users/Chandrashekar/Documents/Goldsmiths/Final Project/HTML/pictures/bush_elephant_1920.jpg');
+
+  width: 110%;
+  height: 80%;
+
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.parallax3 {
+  background-image: url('/Users/Chandrashekar/Documents/Goldsmiths/Final Project/HTML/pictures/herd_african_elephants.jpg');
+
+  width: 110%;
+  height: 80%;
+
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.amcharts-map-areas-customData tspan {
+  font-family: 'Raleway';
+  color: red;
+}
+.button {
+  background-color: #947734;
+  padding: 5px 15px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/*.container {
+  overflow: hidden;
+  text-align: left;
+  padding: 0px;
+  border: 0;
+}*/
+/*DIV IDs*/
+#related {
+  width: 20%;
+  float: right;
+  position: sticky;
+  margin-left: -500px;
+}
+#leftquote {
+  width: 20%;
+  float: left;
+  position: absolute;
+  font-family: 'The Girl Next Door', cursive;
+}
+#rightquote {
+  width: 20%;
+  float: right;
+  position: relative;
+  margin-left: -500px;
+  /*font-family: 'The Girl Next Door', cursive;*/
+}
+#copyright {
+  border-top: solid 5px #947734;
+  box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: black;
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+#iframecenter {
+  text-align: center;
+  width: 100%;
+}
+#scroll-wrapper {
+}
+#chartdiv {
+  width: 100%;
+  height: 500px;
+  float: left;
+  background-color: white; color: #fff;
+}
+/*#chartdiv_india {
+  width: 49%;
+  height: 500px;
+  float: right;
+  background-color: white; color: #fff;
+}*/
+#chartdiv2 {
+  width: 50%;
+  height: 300px;
+  background-color: white; color: #fff;
+  float:left;
+}
+#chartdiv3 {
+  width: 50%;
+  height: 300px;
+  float: right;
+  background-color: white; color: #fff;
+}
+#chartdiv4 {
+  width: 100%;
+  height: 500px;
+  background-color: white; color: #fff;
+}
+#article {
+}
+/*text styling*/
+h1 {
+  font-family: 'Merienda';
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 1.5em;
+  color: black;
+
+}
+h2 {
+  font-family: 'Raleway';
+  font-size: 24px;
+  line-height: 1em;
+  color: #947734;
+}
+h3 {
+  font-family: 'Merienda';
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 1.5em;
+}
+/*h4 {
+  font-family: 'Merienda';
+  font-size: 24px;
+  line-height: 1.7em;
+}*/
+h5 {
+  font-size: 34px;
+}
+p {
+  font-size: 20px;
+}
+p1 {
+  font-size: 16px;
+}
+p2 {
+  font-size: 14px;
+  text-align: right;
+}
+p3 {
+  font-size: 21px;
+}
+p4 {
+  font-size: 18px;
+}
+p5 {
+  font-size: 16px;
+}
+p6 {
+  font-size: 14px;
+}
+p7 {
+  font-size: 10px;
+}
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 24px;
+}
+/*to stop srolljacking*/
+.no-scrolljack {
+  cursor: pointer;
+  background: transparent;
+  width: 100%;
+  height: 600px;
+  display: block;
+  z-index: 4;
+  position: absolute; /*newly added*/
+
+}
+/*D3 chart styling*/
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: brown;
+}
+.axis--x path {
+  display: none;
+}
+/*social media share buttons script*/
+.fa {
+  padding: 4px;
+  /*margin-left: 1px;*/
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-envelope-open {
+  background-color: #947734;
+  color: white;
+}
+.fa-share-alt {
+  background: white;
+  color: #947734;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.filter-table .quick {
+  margin-left: 0.5em;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.fitler-table .quick:hover {
+  text-decoration: underline;
+}
